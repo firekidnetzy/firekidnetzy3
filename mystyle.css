@@ -1,0 +1,29 @@
+body {
+       display: flex;
+      }
+
+            margin:
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 220px;
+            height: 100vh;
+            background-color:#333;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            left: 0;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            margin-left: 240px; /* Adjusted to match sidebar width + padding */
+            padding: 30px;
+            background-color: #f4f4f4;
+        }
+  
